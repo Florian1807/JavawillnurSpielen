@@ -39,11 +39,11 @@ KeyControlledAnimation(final GameObject contr){
  requestFocusInWindow();
 }
 
-public static void main(String[] args) {MovableImage
-	MovablePanel p = new MouseControlledAnimation(new MovableImage("hexe.png",0,0,1,1));
+public static void main(String[] args) {
+	MovablePanel p = new MouseControlledAnimation
+	(new MovableImage("bat.png",0,0,1,1));
 	 p.gos.add(new MovableImage("biene.png",200,200,-1,-1));
 	 ShowInFrame.show(p);
 }
 }
 
-//e
